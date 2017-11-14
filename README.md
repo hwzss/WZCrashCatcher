@@ -3,8 +3,8 @@
 #用法
 >>>
     //初始化log捕捉
-    [WZCarshCatcher WZ_initCarshCatcher];
+	[WZCrashCatcher WZ_initCrashCatcher];
     //获取log
-    [WZCarshCatcher WZ_getCrashLogs];
+    	[WZCrashCatcher WZ_getCrashLogs];
 >>>
 

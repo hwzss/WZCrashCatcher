@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "WZCarshCatcher.h"
+#import "WZCrashCatcher.h"
 
 @interface AppDelegate ()
 
@@ -19,9 +19,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [WZCarshCatcher WZ_initCarshCatcher];
+    [WZCrashCatcher WZ_initCrashCatcher];
     
-    NSArray *logs = [WZCarshCatcher WZ_getCrashLogs];
+    NSArray *logs = [WZCrashCatcher WZ_getCrashLogs];
     if (logs) {
         NSLog(@"抓到carsh这小东西了😯😯");
     }
