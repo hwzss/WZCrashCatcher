@@ -15,7 +15,7 @@
 		7E41344A1FBA927100DE530B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4134481FBA927100DE530B /* LaunchScreen.storyboard */; };
 		7E4134551FBA927100DE530B /* WZCrashCatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4134541FBA927100DE530B /* WZCrashCatcherTests.m */; };
 		7E4134601FBA927100DE530B /* WZCrashCatcherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E41345F1FBA927100DE530B /* WZCrashCatcherUITests.m */; };
-		7E4134701FBA92A100DE530B /* WZCarshCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E41346F1FBA92A100DE530B /* WZCarshCatcher.m */; };
+		7EE0E4281FBADB4200240C07 /* WZCrashCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE0E4271FBADB4200240C07 /* WZCrashCatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		7E41345B1FBA927100DE530B /* WZCrashCatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZCrashCatcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E41345F1FBA927100DE530B /* WZCrashCatcherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZCrashCatcherUITests.m; sourceTree = "<group>"; };
 		7E4134611FBA927100DE530B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E41346E1FBA92A100DE530B /* WZCarshCatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCarshCatcher.h; sourceTree = "<group>"; };
-		7E41346F1FBA92A100DE530B /* WZCarshCatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCarshCatcher.m; sourceTree = "<group>"; };
+		7EE0E4261FBADB4200240C07 /* WZCrashCatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCrashCatcher.h; sourceTree = "<group>"; };
+		7EE0E4271FBADB4200240C07 /* WZCrashCatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCrashCatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		7E4134391FBA927100DE530B /* WZCrashCatcher */ = {
 			isa = PBXGroup;
 			children = (
-				7E41346D1FBA92A100DE530B /* WZCarshCatcher */,
+				7EE0E4251FBADB4200240C07 /* WZCrashCatcher */,
 				7E41343D1FBA927100DE530B /* AppDelegate.h */,
 				7E41343E1FBA927100DE530B /* AppDelegate.m */,
 				7E4134401FBA927100DE530B /* ViewController.h */,
@@ -144,13 +144,13 @@
 			path = WZCrashCatcherUITests;
 			sourceTree = "<group>";
 		};
-		7E41346D1FBA92A100DE530B /* WZCarshCatcher */ = {
+		7EE0E4251FBADB4200240C07 /* WZCrashCatcher */ = {
 			isa = PBXGroup;
 			children = (
-				7E41346E1FBA92A100DE530B /* WZCarshCatcher.h */,
-				7E41346F1FBA92A100DE530B /* WZCarshCatcher.m */,
+				7EE0E4261FBADB4200240C07 /* WZCrashCatcher.h */,
+				7EE0E4271FBADB4200240C07 /* WZCrashCatcher.m */,
 			);
-			path = WZCarshCatcher;
+			path = WZCrashCatcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +292,7 @@
 				7E4134421FBA927100DE530B /* ViewController.m in Sources */,
 				7E41343F1FBA927100DE530B /* AppDelegate.m in Sources */,
 				7E41343C1FBA927100DE530B /* main.m in Sources */,
-				7E4134701FBA92A100DE530B /* WZCarshCatcher.m in Sources */,
+				7EE0E4281FBADB4200240C07 /* WZCrashCatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +532,7 @@
 				7E4134661FBA927100DE530B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E4134671FBA927100DE530B /* Build configuration list for PBXNativeTarget "WZCrashCatcherTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +541,7 @@
 				7E4134691FBA927100DE530B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E41346A1FBA927100DE530B /* Build configuration list for PBXNativeTarget "WZCrashCatcherUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +550,7 @@
 				7E41346C1FBA927100DE530B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
